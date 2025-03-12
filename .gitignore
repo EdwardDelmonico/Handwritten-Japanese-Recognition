@@ -3,3 +3,7 @@ ETL1
 ETL8G
 env/bin/2to3
 .DS_Store
+k49-test-imgs.npz
+k49-test-labels.npz
+k49-train-imgs.npz
+k49-train-labels.npz
