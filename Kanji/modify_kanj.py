@@ -25,7 +25,7 @@ for i in range( (kanji+4) * 160):
 		if int(i/160) > 219 and int(i/160) < 349:
 			train_images[i-320] = skimage.transform.resize(kan[i], (rows, cols))
 		if int(i/160) > 349 and int(i/160) < 457:
-		if int(i/160) > 457:
+		#if int(i/160) > 457:
 			train_images[i-640] = skimage.transform.resize(kan[i], (rows, cols))
       
 train_images, test_images, train_labels, test_labels = train_test_split(train_images, train_labels, test_size=0.2)
